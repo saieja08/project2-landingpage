@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.navlink {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.navlink li {
+    list-style: none;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.logbtn a {
+    border: 1px solid #EB662B;
+    background-color: #EB662B;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.H1 {
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    color: white;
+}
+
+.H1ipbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.H1ipbox p {
+    margin: 0;
+}
+
+.four a {
+    text-decoration: none;
+    color: white;
+    background-color: #EB662B;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.H2 {
+    margin-top: 2em;
+}
+
+.h2one h3 {
+    padding-left: 1em;
+}
+
+.h2two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.carda {
+    border: none !important;
+}
+
+.carda img {
+    height: 50px;
+    width: 50px;
+    padding-left: 15px;
+}
+
+.h3 {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.h3head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.h3body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tcent {
+    text-align: center;
+}
+
+.h4 {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.h4head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.r1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.crd {
+    border-radius: 50px !important;
+}
+
+.crd img {
+    height: 200px;
+    padding: 15px;
+}
+
+.bottombox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-top: 1px solid grey;
+}
+
+.h7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    margin: 3em;
+}
+
+.h7left {
+    width: 50%;
+    height: 600px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h7left h3 {
+    width: 250px;
+}
+
+.or {
+    color: #EB662B;
+}
+
+.h7left button {
+    padding: 10px;
+    border: none;
+    background-color: #EB662B;
+    color: white;
+}
+
+.h7right {
+    width: 50%;
+    height: 600px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.h7right img {
+    height: 100%;
+    width: auto;
+}
+
+.H8head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 5em;
+}
+
+.H8body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.H8four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.H8one img {
+    height: 230px;
+    width: 286px;
+}
+
+.H9head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3em;
+    padding-right: 5em;
+}
+
+.H9 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: rgb(206, 201, 201);
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    border-radius: 20px;
+}
+
+.H10 {
+    margin: 2em;
+    padding: 1em;
+}
+
+.H10head h4 {
+    text-align: center;
+}
+
+.Part {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.H11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border-radius: 25px;
+}
+
+.H11left {
+    width: 50%;
+    padding-left: 2em;
+    color: white;
+}
+
+.p2 input {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.p2 a {
+    text-decoration: none;
+    color: grey;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.H11right {
+    width: 50%;
+    overflow: hidden;
+}
+
+.H11right img {
+    height: 400px;
+}
+
+footer {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+}
+
+.Foot1 {
+    padding: 2em;
+}
+
+.ft1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.ft2 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #f8a17e;
+    padding-top: 1em;
+}
+
+.ft2 li {
+    list-style: none;
+}
+
+.ft2one {
+    width: 25%;
+}
+
+.ft2two {
+    width: 20%;
+}
+
+.ft2three {
+    width: 20%;
+}
+
+.ft2four {
+    width: 25%;
+}
+
+.ft2four input {
+    border: none;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.ft2four button {
+    border: none;
+    background-color: white;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.Foot2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.imge {
+    display: flex;
+
+}
+
+.imge li {
+    list-style: none;
+}
+
+.imge img {
+    width: 40px;
+    height: 30px;
+}
